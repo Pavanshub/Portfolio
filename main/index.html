@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan's Portfolio</title>
+
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top" class="dark-theme">
+    <!-- Header -->
+    <header class="header" data-header>
+        <div class="container">
+            <h1 class="h1 logo">
+                <a href="#">Pavan<span>.</span></a>
+            </h1>
+
+            <div class="navbar-actions">
+                <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+                    <span class="icon"></span>
+                </button>
+            </div>
+
+            <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+            </button>
+
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li><a href="#home" class="navbar-link">Home</a></li>
+                    <li><a href="#about" class="navbar-link">About Me</a></li>
+                    <li><a href="#skills" class="navbar-link">Skills</a></li>
+                    <li><a href="#portfolio" class="navbar-link">Projects</a></li>
+                    <li><a href="#contact" class="navbar-link">Contact Me</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <article class="container">
+            <!-- Profile Pic -->
+            <section class="profile" id="home">
+                <figure class="profilepic">
+                    <picture>
+
+                        <source srcset="../assets/images/Pavan(No Bg).png" media="(min-width: 768px)">
+                        <source srcset="../assets/images/Pavan(No Bg).png" media="(min-width: 500px)">
+                        <img src="../assets/images/Pavan(No Bg).png" alt="Pavan's Picture" class="w-100">
+                    </picture>
+                </figure>
+
+                <div class="profile-content">
+                    <h2 class="h2 profile-title">Pavan Krishna D</h2>
+                    <a href="../assets/images/Pavan Krishna Portfolio.pdf" download="PK portfolio"
+                        class="btn btn-primary">Download Resume</a>
+                </div>
+                <!-- social media -->
+                <ul class="profile-social-list">
+                    <li>
+                        <a href="https://www.instagram.com/thepavanchowdary/" class="profile-social-link"
+                            target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+
+                            <div class="tooltip">Instagram</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Pavanshub" class="profile-social-link" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+
+                            <div class="tooltip">github</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/thepavanchowdary/" class="profile-social-link"
+                            target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+
+                            <div class="tooltip">LinkedIn</div>
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="#edu" class="scroll-down">Scroll</a>
+            </section>
+
+            <!-- Education -->
+
+            <section class="edu" id="edu">
+                <ul class="edu-list">
+                    <li>
+                        <a href="#" class="edu-card">
+                            <div class="card-icon">
+                                <img src="../assets/images/graduation.png" alt="UG">
+                            </div>
+
+                            <h2 class="h2 card-title">
+                                7.90 <strong>B.Tech [ECE]</strong>
+                            </h2>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="edu-card">
+                            <div class="card-icon">
+                                <img src="../assets/images/plus2.png" alt="UG">
+                            </div>
+
+                            <h2 class="h2 card-title">
+                                8.32 <strong>Intermediate</strong>
+                            </h2>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="edu-card">
+                            <div class="card-icon">
+                                <img src="../assets/images/tenth.png" alt="UG">
+                            </div>
+
+                            <h2 class="h2 card-title">
+                                8.20 <strong>Class X</strong>
+                            </h2>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- About -->
+            <section class="about" id="about">
+                <figure class="about-banner">
+                    <img src="../assets/images/about-banner.png" alt="" class="w-100">
+                </figure>
+
+                <div class="about-content section-content">
+                    <p class="section-subtitle">About Me</p>
+
+                    <h2 class="h3 section-title">Hi! I'm Pavan</h2>
+
+                    <p class="section-text">& I'm a Frontend Developer who has passion for building clean web
+                        applications with additional functionalities.I enjoy the process of turning ideas in to reality
+                        using creative solutions. I'm always curious about learning new skills, tools, and concepts.
+                    </p>
+
+                    <div class="btn-group">
+                        <button class="btn btn-secondary" onclick="sendEmail()">Hire me</button>
+                        <button class="btn btn-primary" onclick="bento()">more details ></button>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="skills" id="skills">
+                <div class="skills-content section-content">
+
+                    <p class="section-subtitle">Skills</p>
+
+                    <h2 class="h3 section-title">My Skill Set</h2>
+
+                    <p class="section-text">
+                        I devolop simple and responsive user interface that helps users get things done with less effort
+                        and time with those technologies.
+                    </p>
+
+                    <div class="skills-toggle" data-toggle-box>
+                        <button class="toggle-btn active" data-toggle-btn>Skills</button>
+                        <button class="toggle-btn" data-toggle-btn>Tools</button>
+                    </div>
+                </div>
+
+                <div class="skills-box" data-skills-box>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">HTML5</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/html5.png" alt="HTML5 logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">CSS3</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/css3.png" alt="css3 logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">JS</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/javascript.png" alt="JS logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">Bootstrap</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/bootstrap.png" alt="Bootstrap logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">React</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/react.png" alt="React logo">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <ul class="tools-list">
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">VS Code</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/vs-code.png" alt="VS Code logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">Command Line</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/command.png" alt="Command Line logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">Linux</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/linux.png" alt="Linux logo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-card">
+                                <div class="tooltip">Canva</div>
+                                <div class="card-icon">
+                                    <img src="../assets/images/canva.png" alt="Canva logo">
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="project" id="portfolio">
+                <ul class="project-list">
+                    <li>
+                        <div class="project-content section-content">
+                            <p class="section-subtitle">My Works</p>
+                            <h2 class="h3 section-title">See My Works Present In Below</h2>
+                            <p class="section-text">
+                                I have created some projects using HTML, CSS, JS, Bootstrap, React. You can see those
+                                projects by clicking on it.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://themetogglerbykrishna.netlify.app/" class="project-card" target="_blank">
+                            <figure class="card-banner">
+                                <video src="../assets/Projects/ThemeToggler.mp4" loop autoplay alt="Theme Toggler"
+                                    class="w-100">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Theme Toggler</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://calculatorbykrishna.netlify.app/" class="project-card" target="_blank">
+                            <figure class="card-banner">
+                                <video src="../assets/Projects/Calculator.mp4" alt="Calculator with Dark Mode" loop
+                                    autoplay class="w-100">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Calculator with Dark Mode</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://agecalculatorbykrishna.netlify.app/" class="project-card" target="_blank">
+                            <figure class="card-banner">
+                                <video src="../assets/Projects/AgeCalculator.mp4" alt="AgeCalculator" loop autoplay
+                                    class="w-100">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Age Calculator</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <button class="load-more">Load More Work</button>
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- Contact -->
+            <section class="contact" id="contact">
+                <div class="contact-content section-content">
+                    <p class="section-subtitle">Contact</p>
+                    <h2 class="h3 section-title">If You Have Any Projects? Please Drop A Message</h2>
+                    <p class="section-text">
+                        I'm available for freelance projects. Drop me a message if you want to work together.
+                    </p>
+                    <ul class="contact-list">
+                        <li class="contact-list-item">
+                            <div class="contact-item-icon">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <div class="wrapper">
+                                <h3 class="h4 contact-item-title">Address :</h3>
+                                <address class="contact-info">
+                                    1-113 Bhanumukkala (V), Pamulapadu (M), Kurnool District, 518422
+                                </address>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div class="contact-item-icon">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <div class="wrapper">
+                                <h3 class="h4 contact-item-title">Phone :</h3>
+                                <a href="#" class="contact-info">+91 91001 37698</a>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div class="contact-item-icon">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="wrapper">
+                                <h3 class="h4 contact-item-title">Email :</h3>
+                                <a href="mailto:krishna.dirishala05@gmail.com"
+                                    class="contact-info">krishna.dirishala05@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="contact-social-list">
+                                <li>
+                                    <a href="https://www.instagram.com/thepavanchowdary/" class="contact-social-link"
+                                        target="_blank">
+                                        <div class="tooltip">Instagram</div>
+
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Pavanshub" class="contact-social-link" target="_blank">
+                                        <div class="tooltip">github</div>
+
+                                        <ion-icon name="logo-github"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/thepavanchowdary/" class="contact-social-link"
+                                        target="_blank">
+                                        <div class="tooltip">Linkedin</div>
+
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://codepen.io/Pavan-Krishna-the-looper" class="contact-social-link">
+                                        <div class="tooltip">CodePen</div>
+
+                                        <ion-icon name="logo-codepen"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+
+        </article>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <p class="h1 logo">
+                <a href="#">Pavan Krishna<span>.</span></a>
+            </p>
+            <p class="copyright">
+                &copy; 2023 Pavan Krishna D. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- #Go To Top -->
+    <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+
+    <!-- JavaScript -->
+    <script src="../assets/js/index.js"></script>
+
+
+
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
