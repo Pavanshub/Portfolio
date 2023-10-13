@@ -12,7 +12,7 @@ Welcome to my personal portfolio! This repository contains the source code and f
 
 ## Demo
 
-[Link to Live Demo](https://www.krishnasportfolio.netlify.com)
+[Link to Live Demo](https://www.thepavankrishna.netlify.com)
 
 ![image](https://github.com/Pavanshub/Portfolio/assets/93937995/5699d89f-3b11-44e6-89bd-7ecf9e0eb68d)
 
@@ -42,7 +42,7 @@ This project is licensed under the MIT License.
 ## Contact
 
 - **Pavan Krishna Dirishala**
-  - [Portfolio](https://www.krishnasportfolio.netlify.com)
+  - [Portfolio](https://www.thepavankrishna.netlify.com)
   - [Bento](https://bento.me/thepavanchowdary)
   - [Instagram](https://www.instagram.com/thepavanchowdary/)
   - [LinkedIn](https://www.linkedin.com/in/thepavanchowdary)
