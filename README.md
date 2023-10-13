@@ -14,8 +14,8 @@ Welcome to my personal portfolio! This repository contains the source code and f
 
 [Link to Live Demo](https://www.krishnasportfolio.netlify.com)
 
-[![Portfolio Demo](![image](https://github.com/Pavanshub/Portfolio/assets/93937995/5699d89f-3b11-44e6-89bd-7ecf9e0eb68d)
-)]([https://www.yourportfolio.com](https://www.krishnasportfolio.netlify.com))
+![image](https://github.com/Pavanshub/Portfolio/assets/93937995/5699d89f-3b11-44e6-89bd-7ecf9e0eb68d)
+
 
 ## Technologies Used
 
