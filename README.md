@@ -41,10 +41,11 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-- **Your Name**
-  - Portfolio: [yourportfolio.com](https://www.krishnasportfolio.netlify.com)
-  - Bento: [linkedin.com/in/yourname](https://bento.me/thepavanchowdary)
-  - LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/thepavanchowdary)
+- **Pavan Krishna Dirishala**
+  - [Portfolio](https://www.krishnasportfolio.netlify.com)
+  - [Bento](https://bento.me/thepavanchowdary)
+  - [Instagram](https://www.instagram.com/thepavanchowdary/)
+  - [LinkedIn](https://www.linkedin.com/in/thepavanchowdary)
   - Email: krishna.dirishala@gmail.com
 
 Feel free to reach out to me if you have any questions or suggestions!
