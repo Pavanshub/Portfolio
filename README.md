@@ -12,9 +12,10 @@ Welcome to my personal portfolio! This repository contains the source code and f
 
 ## Demo
 
-[Link to Live Demo](https://www.yourportfolio.com)
+[Link to Live Demo](https://www.krishnasportfolio.netlify.com)
 
-[![Portfolio Demo](screenshot.png)](https://www.yourportfolio.com)
+[![Portfolio Demo](![image](https://github.com/Pavanshub/Portfolio/assets/93937995/5699d89f-3b11-44e6-89bd-7ecf9e0eb68d)
+)]([https://www.yourportfolio.com](https://www.krishnasportfolio.netlify.com))
 
 ## Technologies Used
 
@@ -41,10 +42,10 @@ This project is licensed under the MIT License.
 ## Contact
 
 - **Your Name**
-  - Portfolio: [yourportfolio.com](https://www.yourportfolio.com)
-  - LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname)
+  - Portfolio: [yourportfolio.com](https://www.krishnasportfolio.netlify.com)
+  - Bento: [linkedin.com/in/yourname](https://bento.me/thepavanchowdary)
+  - LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/thepavanchowdary)
   - Email: krishna.dirishala@gmail.com
-  - Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
 
 Feel free to reach out to me if you have any questions or suggestions!
 
